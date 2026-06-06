@@ -1,119 +1,133 @@
-<!-- HEADER ANIMADO DE ALTO IMPACTO -->
+<!-- BANNER DE ENTRADA INDUSTRIAL COM ANIMAÇÃO TWINKLE (PISCANTE) -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/type=rect&color=0f172a&height=180&section=header&text=MARCO%20ANTÔNIO&subtitle=Software%20Engineer%20%7C%20Full%20Stack%20%7C%20AI%20Automations&fontSize=42&subFontSize=16&fontColor=38bdf8&animation=twinkling" width="100%" alt="Header" />
+  <img src="https://capsule-render.vercel.app/type=beautify&color=0f172a&height=180&section=header&text=MARCO%20ANTÔNIO&subtitle=Software%20Developer%20%7C%20Automation%20Specialist&fontSize=40&subFontSize=16&fontColor=38bdf8&animation=twinkling" width="100%" alt="Header Animado" />
 </p>
 
-<!-- SELETOR INTERATIVO DE IDIOMAS (TRADUTOR DA PÁGINA) -->
-<p align="right">
-  <b>🌍 Traduzir página / Translate page:</b><br/>
-  <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=en&_x_tr_hl=en"><img src="https://img.shields.io/badge/English-🇺🇸%20Translate-blue?style=flat-square" alt="Translate to English" /></a>
-  <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=es&_x_tr_hl=es"><img src="https://img.shields.io/badge/Español-🇪🇸%20Traducir-red?style=flat-square" alt="Traduzir para Espanhol" /></a>
-  <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=de&_x_tr_hl=de"><img src="https://img.shields.io/badge/Deutsch-🇩🇪%20Übersetzen-black?style=flat-square" alt="Traduzir para Alemão" /></a>
-</p>
+<!-- 🌍 CENTRAL DE TRADUÇÃO COMPACTA -->
+<table align="center">
+  <tr>
+    <td align="center" style="background-color: #0f172a; padding: 10px;">
+      <b>🌍 TRANSLATE PAGE / TRADUZIR PÁGINA:</b> 
+      &nbsp;&nbsp;
+      <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=en&_x_tr_hl=en">
+        <img src="https://img.shields.io/badge/English-🇺🇸%20Click%20Here-blue?style=for-the-badge" alt="Translate to English" />
+      </a>
+      &nbsp;
+      <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=es&_x_tr_hl=es">
+        <img src="https://img.shields.io/badge/Español-🇪🇸%20Clic%20Aquí-red?style=for-the-badge" alt="Traducir a Español" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-<!-- EFEITO TYPING DIGITAL -->
+<!-- TEXTO COM ANIMAÇÃO DE DIGITAÇÃO DINÂMICA (TYPING EFFECT) -->
 <p align="center">
   <a href="https://github.com/marcaonnn">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&duration=2500&pause=1000&color=0ea5e9&center=true&vCenter=true&width=750&lines=DEVELOPER+PORTFOLIO+%E2%9A%A1%EF%B8%8F;SOLUÇÕES+WEB+DE+ALTA+PERFORMANCE;AUTOMAÇÃO+E+INTELIGÊNCIA+COMPUTACIONAL" alt="Typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=800&color=0ea5e9&center=true&vCenter=true&width=750&lines=LOADING+PORTFOLIO...+%E2%9A%A1%EF%B8%8F;SOLUÇÕES+WEB+DE+ALTA+PERFORMANCE;AUTOMAÇÃO+DE+PROCESSOS+E+APIs" alt="Typing Animation" />
   </a>
 </p>
 
 ---
 
-## 👤 Sobre Mim
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2Zkb3VpNDNidm16NXF6OG00cXN6Znd4Z3BvZXg1cGg0ZXp1ZndjMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/L1R1bA6hfGSFIaj7zX/giphy.gif" width="30px"> Sobre Mim
 
-Sou um desenvolvedor focado na criação de ecossistemas web robustos e fluxos automatizados inteligentes. Através de metodologias ágeis e arquitetura limpa, busco otimizar a presença digital e processos operacionais de empresas. Sou movido por desafios complexos e evolução técnica diária.
+Sou desenvolvedor focado na construção de ecossistemas web modernos, aplicações responsivas e arquiteturas de automação computacional estáveis. Alinho design limpo com engenharia de software para otimizar processos comerciais e a presença digital de marcas mercado afora.
 
-- 🎓 Cursando **Engenharia / Tecnologia da Informação**
-- 📍 Localização: **Maringá, PR, Brasil** (Disponível para trabalho Remoto / Híbrido / Presencial)
-- 💼 Fundador e Head Developer na **XSITES**
+- 🎓 Cursando **Tecnologia em Análise e Desenvolvimento de Sistemas**
+- 📍 Baseado em **Maringá, PR, Brasil** (Disponível para atuação Presencial, Híbrida ou Remota)
+- 🚀 Fundador & Desenvolvedor Core na **XSITES**
 
 ---
 
-## 🛠️ Stack Tecnológica
+## 🛠️ Tecnologias Dominadas e em Estudo
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/n8n-FF6F61?style=for-the-badge&logo=n8n&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/n8n-FF6F61?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
 ---
 
-## 🗂️ SELETOR INTERATIVO DE PROJETOS
-*Clique nas categorias abaixo para expandir e filtrar os repositórios técnicos:*
+## 🗂️ Painel Interativo de Projetos
+*Clique abaixo nas abas para expandir e alternar a visualização dos códigos:*
 
-<details>
-<summary><b>📂 1. SELECIONAR TODOS OS PROJETOS (Ver Lista Completa)</b></summary>
+<details open>
+<summary><b>📂 VER TODOS OS PROJETOS COMPLETO (Padrão)</b></summary>
 <br/>
 
-| Projeto | Tipo | Stack Principal | Link do Código |
+| Escopo do Projeto | Tipo de Aplicação | Stack Utilizada | Link Direto do Código |
 | :--- | :--- | :--- | :--- |
-| **XSITES Corporativo** | Plataforma Web | HTML5 / CSS3 / JS | [Acessar Código ↗](https://github.com/marcaonnn) |
-| **Meta Graph Automations** | Inteligência / API | Python / Requests / JSON | [Acessar Código ↗](https://github.com/marcaonnn) |
-| **Sistemas de Leads Avançado** | Automação n8n | Python / n8n / REST | [Acessar Código ↗](https://github.com/marcaonnn) |
-| **Mobile App Protótipo** | Mobile Cross-Platform | Flutter / Dart | [Acessar Código ↗](https://github.com/marcaonnn) |
+| **XSITES Corporativo** | Landing Pages & Sites | HTML5 / CSS3 / JavaScript | [Explorar Repositório ↗](https://github.com/marcaonnn) |
+| **Automação de Redes Sociais** | Scripts e APIs | Python / Meta Graph API / JSON | [Explorar Repositório ↗](https://github.com/marcaonnn) |
+| **Workflow de Leads** | Automação Integrada | Python / Webhooks / n8n | [Explorar Repositório ↗](https://github.com/marcaonnn) |
+| **Aplicativo Mobile Protótipo** | App Cross-Platform | Flutter / Dart | [Explorar Repositório ↗](https://github.com/marcaonnn) |
 
 </details>
 
 <details>
-<summary><b>🌐 2. FILTRAR POR: Desenvolvimento Web (XSITES)</b></summary>
+<summary><b>🌐 FILTRAR POR: Desenvolvimento Web (XSITES)</b></summary>
 <br/>
 
-<blockquote>
-  <h3>Plataformas Web de Alta Performance — XSITES</h3>
-  <p>Desenvolvimento focado em interfaces minimalistas, arquitetura moderna e otimização SEO para conversão de leads corporativos.</p>
-  <ul>
-    <li><b>Tecnologias:</b> HTML5 avançado, CSS grid/flexbox, animações JavaScript.</li>
-  </ul>
-  <a href="https://github.com/marcaonnn"><b>→ Explorar Repositório Web</b></a>
-</blockquote>
+> ### 💻 XSITES - Soluções Web Corporativas
+> Arquitetura e desenvolvimento front-end com foco em máxima performance, layouts responsivos adaptados para qualquer tela e código semanticamente limpo estruturado para SEO.
+> - **Tecnologias principais:** HTML5, CSS Grid/Flexbox e manipulação dinâmica com JavaScript.
+> - [Acessar Repositório do Projeto](https://github.com/marcaonnn)
 
 </details>
 
 <details>
-<summary><b>🤖 3. FILTRAR POR: Inteligência Artificial & Automações (Python / n8n)</b></summary>
+<summary><b>🤖 FILTRAR POR: Automações & Conexões de APIs</b></summary>
 <br/>
 
-<blockquote>
-  <h3>Engine de Integração Avançada — Meta API & Leads</h3>
-  <p>Scripts inteligentes criados em Python e fluxos estruturados na ferramenta de automação n8n para realizar requisições de dados em tempo real na Graph API do Meta, automatizando captação, filtragem de dados e postagens estratégicas.</p>
-  <ul>
-    <li><b>Tecnologias:</b> Python, Requests, Manipulação de JSON, APIs RESTful, Webhooks, n8n.</li>
-  </ul>
-  <a href="https://github.com/marcaonnn"><b>→ Explorar Repositório de Automação</b></a>
-</blockquote>
+> ### ⚡ Engine de Integração com APIs Restful
+> Desenvolvimento de scripts assíncronos e pipelines utilizando Python integrado à ferramentas de automação (n8n). O sistema se conecta de forma segura via Meta Graph API para extração, tratamento e disparo automatizado de informações e gerenciamento inteligente de fluxos de leads.
+> - **Tecnologias principais:** Python, Bibliotecas HTTP Requests, JSON parser e gerenciamento de Webhooks.
+> - [Acessar Repositório do Projeto](https://github.com/marcaonnn)
 
 </details>
 
 ---
 
-## 📊 Métricas de Desenvolvimento & Análise do Perfil
+## 📊 Estatísticas Reais de Desenvolvimento
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=marcaonnn&show_icons=true&theme=calm&include_all_commits=true&count_private=true&hide_border=true" height="180" alt="Estatísticas Gerais" />
-  <img src="https://github-readme-top-langs.vercel.app/api/?username=marcaonnn&layout=compact&theme=calm&hide_border=true" height="180" alt="Linguagens" />
+  <b>Métricas de Desempenho e Produtividade Acadêmica/Profissional:</b>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=marcaonnn&theme=calm&hide_border=true" width="100%" alt="Streak de Código" />
+  <img src="https://github-readme-stats.vercel.app/api?username=marcaonnn&show_icons=true&theme=dark&include_all_commits=true&count_private=true&border_radius=10" width="48%" alt="Estatísticas Principais" />
+  <img src="https://github-readme-top-langs.vercel.app/api/?username=marcaonnn&layout=compact&theme=dark&border_radius=10" width="48%" alt="Linguagens mais utilizadas" />
 </p>
 
----
-
-## 📬 Contatos Profissionais & Redes
-
 <p align="center">
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:seu-email@provedor.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://instagram.com"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=marcaonnn&theme=dark&border_radius=10" width="100%" alt="Sequência de Commits" />
 </p>
 
 ---
+
+## 📬 Contatos Profissionais & Networking
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/type=rect&color=0f172a&height=40&section=footer" width="100%" />
+  <a href="https://linkedin.com" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:seu-email@provedor.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://instagram.com" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+</p>
+
+---
+<!-- LINHA DE FECHAMENTO ANIMADA -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/type=waving&color=0f172a&height=60&section=footer" width="100%" />
 </p>
