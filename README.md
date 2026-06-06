@@ -19,7 +19,7 @@
       </a>
       &nbsp;
       <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=es&_x_tr_hl=es">
-        <img src="https://img.shields.io/badge/Español-🇪🇸%20Clic%20Aquí-red?style=for-the-badge" alt="Traducir a Español" />
+        <img src="https://img.shields.io/badge/Español-🇪🇸%20Clic%20Aqui-red?style=for-the-badge" alt="Traducir a Español" />
       </a>
     </td>
   </tr>
@@ -98,8 +98,8 @@ Desenvolvedor focado na construção de ecossistemas web modernos, aplicações 
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=marcaonnn&show_icons=true&theme=dark&include_all_commits=true&count_private=true&border_radius=10" width="48%" alt="Estatísticas Principais" />
-  <img src="https://github-readme-top-langs.vercel.app/api/?username=marcaonnn&layout=compact&theme=dark&border_radius=10" width="48%" alt="Linguagens mais utilizadas" />
+  <img src="https://github-readme-stats.azurewebsites.net/api?username=marcaonnn&show_icons=true&theme=dark&include_all_commits=true&count_private=true&border_radius=10&cache_seconds=1800" width="48%" alt="Estatísticas Principais" />
+  <img src="https://github-readme-stats.azurewebsites.net/api/top-langs/?username=marcaonnn&layout=compact&theme=dark&border_radius=10&cache_seconds=1800" width="48%" alt="Linguagens mais utilizadas" />
 </p>
 
 <p align="center">
