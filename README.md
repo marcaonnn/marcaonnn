@@ -8,51 +8,18 @@
 
 <hr />
 
-<!-- 🌍 CENTRAL DE TRADUÇÃO GLOBAL COM RETORNO FORÇADO -->
+<!-- 🌍 AVISO DE ACESSIBILIDADE GLOBAL -->
 <table align="center">
   <tr>
-    <td align="center" style="background-color: #0f172a; padding: 15px; border-radius: 10px;">
-      <b style="color: #38bdf8; font-size: 16px;">🌍 GLOBAL TRANSLATION / CENTRAL DE TRADUÇÃO</b>
-      <br/>
-      <small style="color: #94a3b8;">Selecione seu idioma para traduzir ou retornar ao original</small>
+    <td align="center" style="background-color: #0f172a; padding: 15px; border-radius: 10px; border: 1px solid #38bdf8;">
+      <b style="color: #38bdf8; font-size: 16px;">🌍 BEM-VINDO / WELCOME / BIENVENIDO</b>
       <br/><br/>
-      <!-- BOTÃO DE CORREÇÃO: FORÇA O GOOGLE A TRADUZIR DE VOLTA PARA O PORTUGUÊS -->
-      <a href="https://translate.google.com/translate?sl=auto&tl=pt&u=https://github.com/marcaonnn" target="_blank">
-        <img src="https://img.shields.io/badge/%E2%AC%85%20RETORNAR%20PARA%20PORTUGU%C3%8AS-🇧🇷%20Original-green?style=for-the-badge" alt="Voltar para o Português" />
-      </a>
-      <br/><br/>
-      <!-- LINKS SEGUROS DE TRADUÇÃO -->
-      <a href="https://translate.google.com/translate?sl=pt&tl=en&u=https://github.com/marcaonnn" target="_blank">
-        <img src="https://img.shields.io/badge/English-🇺🇸%20Translate-blue?style=for-the-badge" alt="English" />
-      </a>
-      &nbsp;
-      <a href="https://translate.google.com/translate?sl=pt&tl=es&u=https://github.com/marcaonnn" target="_blank">
-        <img src="https://img.shields.io/badge/Español-🇪🇸%20Traducir-red?style=for-the-badge" alt="Español" />
-      </a>
-      &nbsp;
-      <a href="https://translate.google.com/translate?sl=pt&tl=fr&u=https://github.com/marcaonnn" target="_blank">
-        <img src="https://img.shields.io/badge/Français-🇫🇷%20Traduire-purple?style=for-the-badge" alt="Français" />
-      </a>
-      &nbsp;
-      <a href="https://translate.google.com/translate?sl=pt&tl=de&u=https://github.com/marcaonnn" target="_blank">
-        <img src="https://img.shields.io/badge/Deutsch-🇩🇪%20Übersetzen-orange?style=for-the-badge" alt="Deutsch" />
-      </a>
-      <br/><br/>
-      <a href="https://translate.google.com/translate?sl=pt&tl=it&u=https://github.com/marcaonnn" target="_blank">
-        <img src="https://img.shields.io/badge/Italiano-🇮🇹%20Tradurre-green?style=for-the-badge" alt="Italiano" />
-      </a>
-      &nbsp;
-      <a href="https://translate.google.com/translate?sl=pt&tl=ja&u=https://github.com/marcaonnn" target="_blank">
-        <img src="https://img.shields.io/badge/日本語-🇯🇵%20翻訳-yellow?style=for-the-badge" alt="日本語" />
-      </a>
-      &nbsp;
-      <a href="https://translate.google.com/translate?sl=pt&tl=zh-CN&u=https://github.com/marcaonnn" target="_blank">
-        <img src="https://img.shields.io/badge/中文-🇨🇳%20翻译-black?style=for-the-badge" alt="中文" />
-      </a>
-      &nbsp;
-      <a href="https://translate.google.com/translate?sl=pt&tl=ru&u=https://github.com/marcaonnn" target="_blank">
-        <img src="https://img.shields.io/badge/Русский-🇷🇺%20Перевод-lightgrey?style=for-the-badge" alt="Русский" />
-      </a>
+      <p style="color: #cbd5e1; font-size: 14px; margin-bottom: 10px;">
+        Este perfil está em <b>Português (Brasil) 🇧🇷</b>. Para visualizar em seu idioma, utilize o recurso de tradução nativa do seu navegador (clique com o botão direito na página e selecione "Traduzir").
+      </p>
+      <p style="color: #94a3b8; font-size: 12px; font-style: italic;">
+        This profile is in Portuguese. To view it in your language, please use your browser's built-in translation feature.
+      </p>
     </td>
   </tr>
 </table>
@@ -157,3 +124,6 @@ Desenvolvedor focado na construção de ecossistemas web modernos, aplicações 
 </p>
 
 <hr />
+```eof
+
+A nova abordagem substitui os links problemáticos por um aviso bilíngue elegante. Isso evita que os usuários caiam em páginas de erro e garante que o seu README.md sempre carregue perfeitamente no próprio domínio do GitHub. O que você acha dessa solução mais limpa?
