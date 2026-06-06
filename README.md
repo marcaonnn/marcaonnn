@@ -63,6 +63,7 @@
         }
     </style>
 </head>
+
 <body class="min-h-screen flex flex-col items-center p-4 sm:p-8">
 
     <div class="w-full max-w-6xl flex flex-col gap-6">
@@ -242,7 +243,7 @@
             document.getElementById('languagesList').innerHTML = '';
             
             try {
-                // Buscar repositórios (paginando até 100 para simplificar, mas traz os mais recentes/populares)
+                // Buscar repositórios
                 const response = await fetch(`https://api.github.com/users/${username}/repos?per_page=100&sort=created&direction=asc`);
                 
                 if (!response.ok) {
@@ -452,10 +453,6 @@
             let i = 0;
             // Tratar quebras de linha substituindo \n por <br>
             const formattedText = text.replace(/\n/g, '<br>');
-            
-            // Para não escrever as tags HTML letra por letra, usamos uma abordagem mais inteligente:
-            // Escrevemos em um buffer temporário invisível e jogamos no innerHTML.
-            // Para simplificar a animação pura, converteremos <br> em caracteres especiais para tratar no loop
             
             const chars = text.split('');
 
