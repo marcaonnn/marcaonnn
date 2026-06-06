@@ -8,18 +8,22 @@
 
 <hr />
 
-<!-- 🌍 CENTRAL DE TRADUÇÃO COMPACTA -->
+<!-- 🌍 CENTRAL DE TRADUÇÃO COMPACTA COM BOTÕES ANIMADOS -->
 <table align="center">
   <tr>
-    <td align="center" style="background-color: #0f172a; padding: 10px;">
-      <b>🌍 TRANSLATE PAGE / TRADUZIR PÁGINA:</b> 
+    <td align="center" style="background-color: #0f172a; padding: 12px; border-radius: 8px;">
+      <b style="color: #fff;">🌍 SELECT LANGUAGE / SELECIONE O IDIOMA:</b> 
+      <br/><br/>
+      <a href="https://github.com/marcaonnn">
+        <img src="https://img.shields.io/badge/Português--BR-🇧🇷%20Página%20Atual-green?style=for-the-badge&logo=github&logoColor=white" alt="Português Brasil" />
+      </a>
       &nbsp;&nbsp;
       <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=en&_x_tr_hl=en">
-        <img src="https://img.shields.io/badge/English-🇺🇸%20Click%20Here-blue?style=for-the-badge" alt="Translate to English" />
+        <img src="https://img.shields.io/badge/English-🇺🇸%20Translate-blue?style=for-the-badge&animation=flash" alt="Translate to English" />
       </a>
-      &nbsp;
+      &nbsp;&nbsp;
       <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=es&_x_tr_hl=es">
-        <img src="https://img.shields.io/badge/Español-🇪🇸%20Clic%20Aqui-red?style=for-the-badge" alt="Traducir a Español" />
+        <img src="https://img.shields.io/badge/Español-🇪🇸%20Traducir-red?style=for-the-badge&animation=flash" alt="Traducir a Español" />
       </a>
     </td>
   </tr>
