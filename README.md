@@ -1,123 +1,129 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevMarket Analytics - Terminal</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; background-color: #0b0e11; color: #eaecef; }
-        .font-mono { font-family: 'JetBrains Mono', monospace; }
-        .glow-text { text-shadow: 0 0 10px rgba(14, 203, 129, 0.5); }
-        .cursor-blink { animation: blink 1s step-end infinite; }
-        @keyframes blink { 50% { opacity: 0; } }
-        .bg-panel { background-color: #181a20; border: 1px solid #2b3139; }
-    </style>
-</head>
+<h1 align="center">
+  MARCO ANTÔNIO MEDEIROS
+</h1>
 
-<body class="min-h-screen flex flex-col items-center p-4 sm:p-8">
-    <div class="w-full max-w-6xl flex flex-col gap-6">
-        <header class="flex flex-col sm:flex-row justify-between items-center bg-panel p-6 rounded-xl shadow-lg">
-            <div class="flex items-center gap-4">
-                <div class="w-12 h-12 rounded-full bg-emerald-500/20 flex items-center justify-center border border-emerald-500">
-                    <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
-                </div>
-                <div>
-                    <h1 class="text-2xl font-bold glow-text text-emerald-400">DevMarket Analytics</h1>
-                    <p class="text-xs text-gray-400 font-mono">IPC: ÍNDICE PARABÓLICO DE CÓDIGO</p>
-                </div>
-            </div>
-            <div class="flex gap-2 w-full sm:w-auto mt-4 sm:mt-0">
-                <input type="text" id="usernameInput" placeholder="Usuário GitHub..." class="w-full sm:w-64 bg-[#0b0e11] border border-gray-700 rounded-lg px-4 py-2 text-white font-mono focus:outline-none focus:border-emerald-500">
-                <button onclick="fetchUserData()" class="bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-2 rounded-lg font-semibold">Analisar</button>
-            </div>
-        </header>
+<p align="center">
+  <b>🚀 Software Developer & Automation Specialist</b>
+</p>
 
-        <main class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div class="lg:col-span-2 bg-panel rounded-xl p-6 shadow-lg relative">
-                <h2 class="text-lg font-semibold text-gray-200 mb-4">Ação de Preço (Repositórios)</h2>
-                <div id="loadingOverlay" class="absolute inset-0 bg-[#181a20]/90 hidden z-10 flex-col items-center justify-center rounded-xl">
-                    <div class="w-10 h-10 border-4 border-emerald-500 border-t-transparent rounded-full animate-spin"></div>
-                </div>
-                <div class="h-[400px]"><canvas id="evolutionChart"></canvas></div>
-            </div>
-            <div class="bg-panel rounded-xl p-6 shadow-lg h-[460px]">
-                <h2 class="text-lg font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">Liquidez por Linguagem</h2>
-                <div id="languagesList" class="overflow-y-auto space-y-4"></div>
-            </div>
-        </main>
+<hr />
 
-        <section class="bg-panel rounded-xl p-6 shadow-lg">
-            <div class="bg-[#0b0e11] rounded-lg p-4 font-mono text-sm text-emerald-400 min-h-[120px] border border-gray-800">
-                <span id="briefingText">Aguardando ticker do desenvolvedor...</span><span class="cursor-blink inline-block w-2 bg-emerald-400 h-4"></span>
-            </div>
-        </section>
-    </div>
+<!-- 🌍 AVISO DE ACESSIBILIDADE GLOBAL -->
+<table align="center">
+  <tr>
+    <td align="center" style="background-color: #0f172a; padding: 15px; border-radius: 10px; border: 1px solid #38bdf8;">
+      <b style="color: #38bdf8; font-size: 16px;">🌍 BEM-VINDO / WELCOME / BIENVENIDO</b>
+      <br/><br/>
+      <p style="color: #cbd5e1; font-size: 14px; margin-bottom: 10px;">
+        Este perfil está em <b>Português (Brasil) 🇧🇷</b>. Para visualizar em seu idioma, utilize o recurso de tradução nativa do seu navegador (clique com o botão direito na página e selecione "Traduzir").
+      </p>
+      <p style="color: #94a3b8; font-size: 12px; font-style: italic;">
+        This profile is in Portuguese. To view it in your language, please use your browser's built-in translation feature.
+      </p>
+    </td>
+  </tr>
+</table>
 
-    <script>
-        let myChart = null;
-        const colors = { emerald: '#0ecb81', grid: '#2b3139', text: '#848e9c' };
+<hr />
 
-        function initChart() {
-            const ctx = document.getElementById('evolutionChart').getContext('2d');
-            myChart = new Chart(ctx, {
-                type: 'line',
-                data: { labels: [], datasets: [{ data: [], borderColor: colors.emerald, tension: 0.4, fill: true, backgroundColor: 'rgba(14, 203, 129, 0.1)' }] },
-                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { grid: { color: colors.grid } }, y: { position: 'right', grid: { color: colors.grid } } } }
-            });
-        }
+## 👤 Sobre Mim
 
-        async function fetchUserData() {
-            const username = document.getElementById('usernameInput').value.trim();
-            if (!username) return;
-            document.getElementById('loadingOverlay').classList.remove('hidden');
-            try {
-                const response = await fetch(`https://api.github.com/users/${username}/repos?per_page=100&sort=created&direction=asc`);
-                const repos = await response.json();
-                processData(repos, username);
-            } catch (e) { alert("Erro ao buscar dados"); }
-            finally { document.getElementById('loadingOverlay').classList.add('hidden'); }
-        }
+Desenvolvedor focado na construção de ecossistemas web modernos, aplicações responsivas e arquiteturas de automação computacional estáveis. Alinho design limpo com engenharia de software para otimizar processos comerciais e a presença digital de marcas.
 
-        function processData(repos, username) {
-            const langs = {};
-            let total = 0;
-            repos.forEach(r => { if (r.language) { langs[r.language] = (langs[r.language] || 0) + 1; total++; } });
-            
-            // Render
-            updateChart(repos.map((_, i) => i + 1), repos.map((_, i) => i + 1));
-            renderLangs(Object.entries(langs).sort((a,b) => b[1]-a[1]), total);
-            typeBriefing(`ANÁLISE DE MERCADO: [${username.toUpperCase()}]. Ativo com ${repos.length} posições abertas. Linguagem dominante: ${Object.keys(langs)[0] || 'Indefinida'}. Tendência de alta confirmada.`);
-        }
+- 🎓 Cursando **Tecnologia em Análise e Desenvolvimento de Sistemas**
+- 📍 Baseado em **Maringá, PR, Brasil** (Disponível para atuação Presencial, Híbrida ou Remota)
+- 🚀 Fundador & Desenvolvedor Core na **XSITES**
 
-        function updateChart(labels, data) {
-            myChart.data.labels = labels;
-            myChart.data.datasets[0].data = data;
-            myChart.update();
-        }
+<hr />
 
-        function renderLangs(langs, total) {
-            const container = document.getElementById('languagesList');
-            container.innerHTML = langs.map(([name, count]) => `
-                <div>
-                    <div class="flex justify-between text-xs mb-1"><span>${name}</span><span>${((count/total)*100).toFixed(1)}%</span></div>
-                    <div class="w-full bg-gray-800 rounded-full h-2"><div class="h-2 bg-emerald-500 rounded-full" style="width: ${(count/total)*100}%"></div></div>
-                </div>`).join('');
-        }
+## 🛠️ Stack Tecnológica
 
-        function typeBriefing(text) {
-            const el = document.getElementById('briefingText');
-            el.innerHTML = '';
-            let i = 0;
-            function type() {
-                if (i < text.length) { el.innerHTML += text.charAt(i); i++; setTimeout(type, 30); }
-            }
-            type();
-        }
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/n8n-FF6F61?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</p>
 
-        window.onload = initChart;
-    </script>
-</body>
-</html>
+<hr />
+
+## 🗂️ Painel Interativo de Projetos
+*Clique abaixo nas abas para expandir e alternar a visualização dos códigos:*
+
+<details open>
+<summary><b>📂 VER TODOS OS PROJETOS COMPLETO (Padrão)</b></summary>
+<br/>
+
+| Escopo do Projeto | Tipo de Aplicação | Stack Utilizada | Link Direto do Código |
+| :--- | :--- | :--- | :--- |
+| **XSITES Corporativo** | Landing Pages & Sites | HTML5 / CSS3 / JavaScript | [Explorar Repositório ↗](https://github.com/marcaonnn) |
+| **Automação de Redes Sociais** | Scripts e APIs | Python / Meta Graph API / JSON | [Explorar Repositório ↗](https://github.com/marcaonnn) |
+| **Workflow de Leads** | Automação Integrada | Python / Webhooks / n8n | [Explorar Repositório ↗](https://github.com/marcaonnn) |
+| **Aplicativo Mobile Protótipo** | App Cross-Platform | Flutter / Dart | [Explorar Repositório ↗](https://github.com/marcaonnn) |
+
+</details>
+
+<details>
+<summary><b>🌐 FILTRAR POR: Desenvolvimento Web (XSITES)</b></summary>
+<br/>
+
+> ### 💻 XSITES - Soluções Web Corporativas
+> Arquitetura e desenvolvimento front-end com foco em máxima performance, layouts responsivos adaptados para qualquer tela e código semanticamente limpo estruturado para SEO.
+> - **Tecnologias principais:** HTML5, CSS Grid/Flexbox e manipulação dinâmica com JavaScript.
+> - [Acessar Repositório do Projeto](https://github.com/marcaonnn)
+
+</details>
+
+<details>
+<summary><b>🤖 FILTRAR POR: Automações & Conexões de APIs</b></summary>
+<br/>
+
+> ### ⚡ Engine de Integração com APIs Restful
+> Desenvolvimento de scripts assíncronos e pipelines utilizando Python integrado à ferramentas de automação (n8n). O sistema se conecta de forma segura via Meta Graph API para extração, tratamento e disparo automatizado de informações e gerenciamento inteligente de fluxos de leads.
+> - **Tecnologias principais:** Python, Bibliotecas HTTP Requests, JSON parser e gerenciamento de Webhooks.
+> - [Acessar Repositório do Projeto](https://github.com/marcaonnn)
+
+</details>
+
+<hr />
+
+## 📊 Estatísticas Reais de Desenvolvimento
+
+<p align="center">
+  <b>Métricas de Desempenho e Produtividade Acadêmica/Profissional:</b>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.azurewebsites.net/api?username=marcaonnn&show_icons=true&theme=dark&include_all_commits=true&count_private=true&border_radius=10&cache_seconds=1800" width="48%" alt="Estatísticas Principais" />
+  <img src="https://github-readme-stats.azurewebsites.net/api/top-langs/?username=marcaonnn&layout=compact&theme=dark&border_radius=10&cache_seconds=1800" width="48%" alt="Linguagens mais utilizadas" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=marcaonnn&theme=dark&border_radius=10" width="100%" alt="Sequência de Commits" />
+</p>
+
+<hr />
+
+## 📬 Contatos Profissionais & Networking
+
+<p align="left">
+  <a href="https://linkedin.com" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:teuvitor123456789@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://instagram.com/marcoantoniooficial13" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+</p>
+
+<hr />
+```eof
+
+A nova abordagem substitui os links problemáticos por um aviso bilíngue elegante. Isso evita que os usuários caiam em páginas de erro e garante que o seu README.md sempre carregue perfeitamente no próprio domínio do GitHub. O que você acha dessa solução mais limpa?
