@@ -8,22 +8,50 @@
 
 <hr />
 
-<!-- 🌍 CENTRAL DE TRADUÇÃO COMPACTA COM BOTÕES ANIMADOS -->
+<!-- 🌍 CENTRAL DE TRADUÇÃO GLOBAL INTERATIVA -->
 <table align="center">
   <tr>
-    <td align="center" style="background-color: #0f172a; padding: 12px; border-radius: 8px;">
-      <b style="color: #fff;">🌍 SELECT LANGUAGE / SELECIONE O IDIOMA:</b> 
+    <td align="center" style="background-color: #0f172a; padding: 15px; border-radius: 10px;">
+      <b style="color: #38bdf8; font-size: 16px;">🌍 GLOBAL TRANSLATION / CENTRAL DE TRADUÇÃO</b>
+      <br/>
+      <small style="color: #94a3b8;">Selecione seu idioma para traduzir a página dinamicamente</small>
       <br/><br/>
-      <a href="https://github.com/marcaonnn">
-        <img src="https://img.shields.io/badge/Português--BR-🇧🇷%20Página%20Atual-green?style=for-the-badge&logo=github&logoColor=white" alt="Português Brasil" />
+      <!-- BOTÃO DE VOLTAR PARA O PORTUGUÊS (QUEBRA O LOOP DA TRADUÇÃO) -->
+      <a href="https://github.com/marcaonnn" target="_top">
+        <img src="https://img.shields.io/badge/%E2%AC%85%20VOLTAR%20AO%20ORIGINAL-Portugu%C3%AAs%20%F0%9F%87%A7%F0%9F%87%B7-green?style=for-the-badge&logo=github" alt="Voltar para o Português" />
       </a>
-      &nbsp;&nbsp;
+      <br/><br/>
+      <!-- GRID DE IDIOMAS INTERNACIONAIS (BOTÕES ANIMADOS) -->
       <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=en&_x_tr_hl=en">
-        <img src="https://img.shields.io/badge/English-🇺🇸%20Translate-blue?style=for-the-badge&animation=flash" alt="Translate to English" />
+        <img src="https://img.shields.io/badge/English-🇺🇸%20Active-blue?style=for-the-badge" alt="English" />
       </a>
-      &nbsp;&nbsp;
+      &nbsp;
       <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=es&_x_tr_hl=es">
-        <img src="https://img.shields.io/badge/Español-🇪🇸%20Traducir-red?style=for-the-badge&animation=flash" alt="Traducir a Español" />
+        <img src="https://img.shields.io/badge/Español-🇪🇸%20Activo-red?style=for-the-badge" alt="Español" />
+      </a>
+      &nbsp;
+      <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=fr&_x_tr_hl=fr">
+        <img src="https://img.shields.io/badge/Français-🇫🇷%20Actif-purple?style=for-the-badge" alt="Français" />
+      </a>
+      &nbsp;
+      <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=de&_x_tr_hl=de">
+        <img src="https://img.shields.io/badge/Deutsch-🇩🇪%20Aktiv-orange?style=for-the-badge" alt="Deutsch" />
+      </a>
+      <br/><br/>
+      <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=it&_x_tr_hl=it">
+        <img src="https://img.shields.io/badge/Italiano-🇮🇹%20Attivo-green?style=for-the-badge" alt="Italiano" />
+      </a>
+      &nbsp;
+      <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=ja&_x_tr_hl=ja">
+        <img src="https://img.shields.io/badge/日本語-🇯🇵%20有効-yellow?style=for-the-badge" alt="日本語" />
+      </a>
+      &nbsp;
+      <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=zh-CN&_x_tr_hl=zh-CN">
+        <img src="https://img.shields.io/badge/中文-🇨🇳%20激活-black?style=for-the-badge" alt="中文" />
+      </a>
+      &nbsp;
+      <a href="https://github-com.translate.goog/marcaonnn?_x_tr_sl=pt&_x_tr_tl=ru&_x_tr_hl=ru">
+        <img src="https://img.shields.io/badge/Русский-🇷🇺%20Актив-lightgrey?style=for-the-badge" alt="Русский" />
       </a>
     </td>
   </tr>
