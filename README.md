@@ -8,20 +8,20 @@
 
 <hr />
 
-<!-- 🌍 CENTRAL DE TRADUÇÃO GLOBAL CORRIGIDA -->
+<!-- 🌍 CENTRAL DE TRADUÇÃO GLOBAL COM RETORNO FORÇADO -->
 <table align="center">
   <tr>
     <td align="center" style="background-color: #0f172a; padding: 15px; border-radius: 10px;">
       <b style="color: #38bdf8; font-size: 16px;">🌍 GLOBAL TRANSLATION / CENTRAL DE TRADUÇÃO</b>
       <br/>
-      <small style="color: #94a3b8;">Selecione seu idioma para forçar a tradução da página</small>
+      <small style="color: #94a3b8;">Selecione seu idioma para traduzir ou retornar ao original</small>
       <br/><br/>
-      <!-- BOTÃO DE RESET (VOLTAR PARA O PORTUGUÊS ORIGINAL) -->
-      <a href="https://github.com/marcaonnn" target="_top">
-        <img src="https://img.shields.io/badge/%E2%AC%85%20VOLTAR%20AO%20ORIGINAL-Portugu%C3%AAs%20%F0%9F%87%A7%F0%9F%87%B7-green?style=for-the-badge&logo=github" alt="Voltar para o Português" />
+      <!-- BOTÃO DE CORREÇÃO: FORÇA O GOOGLE A TRADUZIR DE VOLTA PARA O PORTUGUÊS -->
+      <a href="https://translate.google.com/translate?sl=auto&tl=pt&u=https://github.com/marcaonnn" target="_blank">
+        <img src="https://img.shields.io/badge/%E2%AC%85%20RETORNAR%20PARA%20PORTUGU%C3%8AS-🇧🇷%20Original-green?style=for-the-badge" alt="Voltar para o Português" />
       </a>
       <br/><br/>
-      <!-- LINKS SEGUROS COM REDIRECIONAMENTO ESTRITO DO GOOGLE -->
+      <!-- LINKS SEGUROS DE TRADUÇÃO -->
       <a href="https://translate.google.com/translate?sl=pt&tl=en&u=https://github.com/marcaonnn" target="_blank">
         <img src="https://img.shields.io/badge/English-🇺🇸%20Translate-blue?style=for-the-badge" alt="English" />
       </a>
@@ -39,7 +39,7 @@
       </a>
       <br/><br/>
       <a href="https://translate.google.com/translate?sl=pt&tl=it&u=https://github.com/marcaonnn" target="_blank">
-        <img src="https://img.shields.io/badge/Italiano-🇮🇹%20Traduzi-green?style=for-the-badge" alt="Italiano" />
+        <img src="https://img.shields.io/badge/Italiano-🇮🇹%20Tradurre-green?style=for-the-badge" alt="Italiano" />
       </a>
       &nbsp;
       <a href="https://translate.google.com/translate?sl=pt&tl=ja&u=https://github.com/marcaonnn" target="_blank">
