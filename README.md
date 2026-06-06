@@ -110,6 +110,7 @@
                 </div>
             </div>
 
+            <!-- Coluna Direita: Linguagens (1/3) -->
             <div class="bg-panel rounded-xl p-6 shadow-lg flex flex-col h-[500px]">
                 <h2 class="text-lg font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">Liquidez por Linguagem</h2>
                 
