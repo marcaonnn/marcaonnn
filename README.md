@@ -1,6 +1,16 @@
-<!-- BANNER DE ENTRADA INDUSTRIAL COM ANIMAÇÃO TWINKLE (PISCANTE) -->
+<!-- HEADER ANIMADO FUTURISTA (GIF ULTRA-LIGHT) -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/type=beautify&color=0f172a&height=180&section=header&text=MARCO%20ANTÔNIO&subtitle=Software%20Developer%20%7C%20Automation%20Specialist&fontSize=40&subFontSize=16&fontColor=38bdf8&animation=twinkling" width="100%" alt="Header Animado" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHI3Znd4M3BvZXg1cGg0ZXp1ZndjMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/vQqeTsp07AruU/giphy.gif" width="100%" height="160px" style="object-fit: cover;" alt="Developer Header" />
+</p>
+
+<h1 align="center">
+  MARCO ANTÔNIO MEDEIROS
+  <br/>
+  <sub style="font-size: 16px; color: #38bdf8;">Software Developer & Automation Specialist</sub>
+</h1>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/gradient.png" width="100%" height="8px" />
 </p>
 
 <!-- 🌍 CENTRAL DE TRADUÇÃO COMPACTA -->
@@ -20,16 +30,9 @@
   </tr>
 </table>
 
-<!-- TEXTO COM ANIMAÇÃO DE DIGITAÇÃO DINÂMICA (TYPING EFFECT) -->
-<p align="center">
-  <a href="https://github.com/marcaonnn">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=800&color=0ea5e9&center=true&vCenter=true&width=750&lines=LOADING+PORTFOLIO...+%E2%9A%A1%EF%B8%8F;SOLUÇÕES+WEB+DE+ALTA+PERFORMANCE;AUTOMAÇÃO+DE+PROCESSOS+E+APIs" alt="Typing Animation" />
-  </a>
-</p>
-
 ---
 
-## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2Zkb3VpNDNidm16NXF6OG00cXN6Znd4Z3BvZXg1cGg0ZXp1ZndjMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/L1R1bA6hfGSFIaj7zX/giphy.gif" width="30px"> Sobre Mim
+## 👤 Sobre Mim
 
 Sou desenvolvedor focado na construção de ecossistemas web modernos, aplicações responsivas e arquiteturas de automação computacional estáveis. Alinho design limpo com engenharia de software para otimizar processos comerciais e a presença digital de marcas mercado afora.
 
@@ -127,7 +130,7 @@ Sou desenvolvedor focado na construção de ecossistemas web modernos, aplicaç�
 </p>
 
 ---
-<!-- LINHA DE FECHAMENTO ANIMADA -->
+<!-- FOOTER RENDERIZADO DIRETAMENTE VIA CDN ESTÁVEL DO GITHUB -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/type=waving&color=0f172a&height=60&section=footer" width="100%" />
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/gradient.png" width="100%" height="6px" />
 </p>
