@@ -1,17 +1,12 @@
-<!-- HEADER ANIMADO FUTURISTA (GIF ULTRA-LIGHT) -->
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHI3Znd4M3BvZXg1cGg0ZXp1ZndjMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/vQqeTsp07AruU/giphy.gif" width="100%" height="160px" style="object-fit: cover;" alt="Developer Header" />
-</p>
-
 <h1 align="center">
   MARCO ANTÔNIO MEDEIROS
-  <br/>
-  <sub style="font-size: 16px; color: #38bdf8;">Software Developer & Automation Specialist</sub>
 </h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/gradient.png" width="100%" height="8px" />
+  <b>🚀 Software Developer & Automation Specialist</b>
 </p>
+
+<hr />
 
 <!-- 🌍 CENTRAL DE TRADUÇÃO COMPACTA -->
 <table align="center">
@@ -30,19 +25,19 @@
   </tr>
 </table>
 
----
+<hr />
 
 ## 👤 Sobre Mim
 
-Sou desenvolvedor focado na construção de ecossistemas web modernos, aplicações responsivas e arquiteturas de automação computacional estáveis. Alinho design limpo com engenharia de software para otimizar processos comerciais e a presença digital de marcas mercado afora.
+Desenvolvedor focado na construção de ecossistemas web modernos, aplicações responsivas e arquiteturas de automação computacional estáveis. Alinho design limpo com engenharia de software para otimizar processos comerciais e a presença digital de marcas.
 
 - 🎓 Cursando **Tecnologia em Análise e Desenvolvimento de Sistemas**
 - 📍 Baseado em **Maringá, PR, Brasil** (Disponível para atuação Presencial, Híbrida ou Remota)
 - 🚀 Fundador & Desenvolvedor Core na **XSITES**
 
----
+<hr />
 
-## 🛠️ Tecnologias Dominadas e em Estudo
+## 🛠️ Stack Tecnológica
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -54,7 +49,7 @@ Sou desenvolvedor focado na construção de ecossistemas web modernos, aplicaç�
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
----
+<hr />
 
 ## 🗂️ Painel Interativo de Projetos
 *Clique abaixo nas abas para expandir e alternar a visualização dos códigos:*
@@ -94,7 +89,7 @@ Sou desenvolvedor focado na construção de ecossistemas web modernos, aplicaç�
 
 </details>
 
----
+<hr />
 
 ## 📊 Estatísticas Reais de Desenvolvimento
 
@@ -111,7 +106,7 @@ Sou desenvolvedor focado na construção de ecossistemas web modernos, aplicaç�
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=marcaonnn&theme=dark&border_radius=10" width="100%" alt="Sequência de Commits" />
 </p>
 
----
+<hr />
 
 ## 📬 Contatos Profissionais & Networking
 
@@ -129,8 +124,4 @@ Sou desenvolvedor focado na construção de ecossistemas web modernos, aplicaç�
   </a>
 </p>
 
----
-<!-- FOOTER RENDERIZADO DIRETAMENTE VIA CDN ESTÁVEL DO GITHUB -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/gradient.png" width="100%" height="6px" />
-</p>
+<hr />
