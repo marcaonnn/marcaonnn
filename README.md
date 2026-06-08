@@ -34,10 +34,10 @@ Sou apaixonado por tecnologia, eficiência e pela construção de soluções que
 
 <br/>
 
-### 📊 Estatísticas e Contribuições
+### 📊 Analytics & Telemetria de Código
 
 <p align="center">
-  <img height="180" src="https://streak-stats.demolab.com/?user=marcaonnn&theme=radical&hide_border=true" alt="GitHub Streak Stats" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=marcaonnn&theme=react-dark&area=true&hide_border=true" width="100%" alt="Marco's GitHub Activity Graph" />
 </p>
 
 <br/>
