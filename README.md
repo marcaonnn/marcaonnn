@@ -37,11 +37,9 @@ Sou apaixonado por tecnologia, eficiência e pela construção de soluções que
 ### 📊 Estatísticas do GitHub
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=marcaonnn&show_icons=true&theme=radical&include_all_commits=true&count_private=true&disable_animations=true" alt="Estatísticas do GitHub" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcaonnn&layout=compact&langs_count=7&theme=radical&disable_animations=true" alt="Linguagens Mais Usadas" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=marcaonnn&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcaonnn&layout=compact&langs_count=7&theme=radical" alt="Linguagens Mais Usadas" />
 </p>
-
-<br/>
 
 ### 📫 Como me encontrar
 
