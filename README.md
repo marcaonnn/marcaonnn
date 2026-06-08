@@ -1,56 +1,63 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=200&section=header&text=MARCO%20ANT%C3%94NIO%20MEDEIROS&fontSize=50&fontColor=ffffff&desc=Software%20Developer%20%7C%20Automation%20Specialist&descSize=20" />
+  <h2>Olá, eu sou o Marco Antônio! 👋</h2>
+  <p><em>Estudante Técnico em Desenvolvimento de Sistemas | Desenvolvedor Web & Especialista em Automação</em></p>
 </div>
 
-## 📊 PAINEL DE CONTROLE E ESTATÍSTICAS
+<br/>
+
+### 🚀 Sobre mim
+
+Sou apaixonado por tecnologia, eficiência e pela construção de soluções que resolvem problemas reais. Meu foco atual está na interseção entre o desenvolvimento de sistemas web modernos e a criação de fluxos de automação de alto impacto. 
+
+- 🎓 Cursando **Técnico em Desenvolvimento de Sistemas**.
+- 💻 Focado na construção de arquiteturas web escaláveis e fundação da marca de desenvolvimento **XSITES**.
+- 🤖 Desenvolvendo automações avançadas de processos de negócios utilizando **Python, n8n e Integrações de API** (como a Meta Graph API).
+- 📚 Dedicado às boas práticas de engenharia de software e arquitetura, aplicando os princípios do *Código Limpo*.
+- ⚡ **Objetivo:** Otimizar negócios através de código limpo, inteligência artificial e processos automatizados.
+
+<br/>
+
+### 🛠️ Stack Tecnológico
+
+**Linguagens & Front-End** <p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+</p>
+
+**Automação, Ferramentas & APIs** <p>
+  <img src="https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white" />
+  <img src="https://img.shields.io/badge/Meta_Graph_API-0468FF?style=for-the-badge&logo=meta&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+<br/>
+
+### 📊 Estatísticas do GitHub
 
 <div align="center">
-  <a href="https://seu-usuario.github.io/dashboard/">
-    <img src="https://img.shields.io/badge/Acessar_Dashboard_Interativo-📈-0f172a?style=for-the-badge&logo=chart-js&logoColor=10b981" />
-  </a>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=marcaonnn&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcaonnn&layout=compact&langs_count=7&theme=radical"/>
 </div>
 
----
+<br/>
 
-### 🔍 ANÁLISE DE DOMÍNIO TÉCNICO
-*O sistema processa seus repositórios em tempo real para gerar o gráfico de domínio:*
+### 📫 Como me encontrar
 
-<p align="center">
-  <img src="https://github-readme-stats.azurewebsites.net/api/top-langs/?username=marcaonnn&layout=compact&theme=radical&langs_count=10&hide_border=true&card_width=500" />
+Se quiser conversar sobre desenvolvimento web, automação, ou projetos interessantes, fique à vontade para me contatar:
+
+<p align="left">
+  <a href="mailto:seu-email-profissional@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://www.linkedin.com/in/seu-linkedin-aqui" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://instagram.com/seu-instagram-aqui" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
 </p>
 
----
-
-### 📈 METRICAS DE PERFORMANCE (EVOLUÇÃO)
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=marcaonnn&theme=radical&border_radius=10&date_format=M%20j%5B%2C%20Y%5D" width="80%" />
-</p>
-
----
-
-### 💻 STACK DE DESENVOLVIMENTO
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/n8n-FF6F61?style=for-the-badge&logo=n8n&logoColor=white" />
-</p>
-
----
-<p align="center"><i>Dashboard atualizado automaticamente via GitHub API.</i></p>
-```eof
-
-### Agora, o código que você queria (O Dash Interativo):
-
-Este é o arquivo que você salvará como `index.html` em um repositório chamado `dashboard`. **Ao acessar este link no seu navegador, você terá exatamente o gráfico parabólico, o briefing de IA e a análise de linguagens funcionando em tempo real.**
-
-http://googleusercontent.com/immersive_entry_chip/0
-
-**O que fazer agora:**
-1. Copie o primeiro código (`README.md`) e cole no seu arquivo `README` do perfil principal.
-2. Crie um novo repositório chamado `dashboard` no seu GitHub.
-3. Crie um arquivo `index.html` nesse repositório e cole o segundo código.
-4. Vá em **Settings > Pages** nesse repositório e ative o site.
-
-Pronto, agora você tem um perfil denso (como você pediu) e um sistema de dashboard interativo real (como você sonhou).
+<hr/>
+<p align="center"><em>"Táticas sem estratégia são o ruído antes da derrota."</em></p>
